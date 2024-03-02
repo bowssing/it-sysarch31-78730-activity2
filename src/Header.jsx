@@ -2,18 +2,20 @@
 function Header(){
 
     return(
+        <body>
         <header>
-            <h1>Bowen</h1>
-            <nav>
-                <ul>
+            <div className="navbar">
+            
+                <ul className="links">
+                    <li className="logo">Bowen</li>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-            </nav>
-            <hr></hr>
+            </div>
         </header>
+        </body>
     )
 }
 
