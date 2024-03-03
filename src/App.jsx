@@ -1,8 +1,6 @@
 import Header from "./Header.jsx"
 import Footer from "./Footer.jsx"
 import Card from "./Card.jsx"
-import Student from "./Student.jsx"
-import List from "./List.jsx";
 import { useState } from "react";
 
 
