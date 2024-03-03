@@ -1,22 +1,15 @@
-import PropTypes from 'prop-types'
-function Student(props){
+import Pic from './assets/pic.png'
+
+function Student(){
+    
     return(
-        <div className="student">
-            <p>Name: {props.name}</p>
-            <p>Age: {props.age}</p>
-            <p>Student: {props.isStudent ? "Yes" : "No"}</p>
+        <div className="card">
+            <img className='card-image' src={Pic} alt="profile picture"></img>
+            <h2 className='card-title'>Bowssing</h2>
+            <p className='card-text'>wew</p>
         </div>
     );
 
 }
-Student.propTypes = {
-    name: PropTypes.string,
-    age: PropTypes.number,
-    isStudent: PropTypes.bool,
-}
-Student.defaultProps = {
-    name: "Guest",
-    age: 0,
-    isStudent: false,
-}
+
 export default Student
