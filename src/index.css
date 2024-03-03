@@ -1,5 +1,42 @@
+body{
+  background-color:bisque;
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.navbar a{
+  font: 1em sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: hsl(0, 0%, 10%);
+  cursor: pointer;
+}
+
+.navbar li{
+  float: left;
+  font: 1em sans-serif;
+  color: white;
+}
+
+.logo{
+  padding: 15px;
+}
+
 .card{
   border: 1px solid hsl(0, 0%, 80%);
+  background-color: antiquewhite;
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px hsl(0, 0%, 0%, 0.1);
   padding: 20px;
@@ -9,6 +46,61 @@
   display: inline-block;
 }
 
-.card-image{
-  
+
+.card .card-image{
+  max-width: 60%;
+  height:auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: arial, sans-serif;
+  margin: 0;
+  color: black;
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.student{
+  margin: 0;
+}
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.footer{
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
